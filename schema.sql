@@ -17,11 +17,10 @@ VALUES ("Bananas","Produce",3.75,500),
 ("Bavengers","Movies",14.64,390),
 ("Batan","Board Games",37.89,243),
 ("Ball of Duty","Video Games",60,4032),
-("Ballpoint pen","",0,0),
-("","",0,0),
-("","",0,0),
-("","",0,0),
-("","",0,0);
+("Ballpoint pen","Office Supplies",7.37,800),
+("Burka","Clothing",40.35,60),
+("Bongo Drum","Music",34.23,3),
+("Bourbon","Beverages",70,2);
 
 UPDATE products SET price=1 WHERE item_id=6;
 select * from products;

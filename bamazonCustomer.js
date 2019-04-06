@@ -7,9 +7,8 @@ var connection = mysql.createConnection({
     password: "*********",
     database: "bamazon"
 })
-var products = []
-
 function main(){
+    var products = []
     connection.query("SELECT * FROM products",function(err,res){
         if (err) throw err;
         res.forEach(function(line){
